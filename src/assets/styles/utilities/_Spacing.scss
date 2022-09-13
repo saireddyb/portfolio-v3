@@ -1,0 +1,877 @@
+// Margin
+.m {
+  &-1 {
+    margin: 10px;
+  }
+  &-2 {
+    margin: 20px;
+  }
+  &-3 {
+    margin: 30px;
+  }
+  &-4 {
+    margin: 40px;
+  }
+  &-5 {
+    margin: 50px;
+  }
+  &-6 {
+    margin: 60px;
+  }
+  &-7 {
+    margin: 70px;
+  }
+  &-8 {
+    margin: 80px;
+  }
+  &-90 {
+    margin: 90px;
+  }
+  &-10 {
+    margin: 100px;
+  }
+
+  &t-1 {
+    margin: 10px auto auto;
+  }
+  &t-2 {
+    margin: 20px auto auto;
+  }
+  &t-3 {
+    margin: 30px auto auto;
+  }
+  &t-4 {
+    margin: 40px auto auto;
+  }
+  &t-5 {
+    margin: 50px auto auto;
+  }
+  &t-6 {
+    margin: 60px auto auto;
+  }
+  &t-7 {
+    margin: 70px auto auto;
+  }
+  &t-8 {
+    margin: 80px auto auto;
+  }
+  &t-9 {
+    margin: 90px auto auto;
+  }
+  &t-10 {
+    margin: 100px auto auto;
+  }
+
+  &b-1 {
+    margin: auto auto 10px auto;
+  }
+  &b-2 {
+    margin: auto auto 20px auto;
+  }
+  &b-3 {
+    margin: auto auto 30px auto;
+  }
+  &b-4 {
+    margin: auto auto 40px auto;
+  }
+  &b-5 {
+    margin: auto auto 50px auto;
+  }
+  &b-6 {
+    margin: auto auto 60px auto;
+  }
+  &b-7 {
+    margin: auto auto 70px auto;
+  }
+  &b-8 {
+    margin: auto auto 80px auto;
+  }
+  &b-9 {
+    margin: auto auto 90px auto;
+  }
+  &b-10 {
+    margin: auto auto 100px auto;
+  }
+
+  &r-1 {
+    margin: auto 10px auto auto;
+  }
+  &r-2 {
+    margin: auto 20px auto auto;
+  }
+  &r-3 {
+    margin: auto 30px auto auto;
+  }
+  &r-4 {
+    margin: auto 40px auto auto;
+  }
+  &r-5 {
+    margin: auto 50px auto auto;
+  }
+  &r-6 {
+    margin: auto 60px auto auto;
+  }
+  &r-7 {
+    margin: auto 70px auto auto;
+  }
+  &r-8 {
+    margin: auto 80px auto auto;
+  }
+  &r-9 {
+    margin: auto 90px auto auto;
+  }
+  &r-10 {
+    margin: auto 100px auto auto;
+  }
+
+  &l-1 {
+    margin: auto auto auto 10px;
+  }
+  &l-2 {
+    margin: auto auto auto 20px;
+  }
+  &l-3 {
+    margin: auto auto auto 30px;
+  }
+  &l-4 {
+    margin: auto auto auto 40px;
+  }
+  &l-5 {
+    margin: auto auto auto 50px;
+  }
+  &l-6 {
+    margin: auto auto auto 60px;
+  }
+  &l-7 {
+    margin: auto auto auto 70px;
+  }
+  &l-8 {
+    margin: auto auto auto 80px;
+  }
+  &l-9 {
+    margin: auto auto auto 90px;
+  }
+  &l-10 {
+    margin: auto auto auto 100px;
+  }
+
+  &y-1 {
+    margin: auto 10px;
+  }
+  &y-2 {
+    margin: auto 20px;
+  }
+  &y-3 {
+    margin: auto 30px;
+  }
+  &y-4 {
+    margin: auto 40px;
+  }
+  &y-5 {
+    margin: auto 50px;
+  }
+  &y-6 {
+    margin: auto 60px;
+  }
+  &y-7 {
+    margin: auto 70px;
+  }
+  &y-8 {
+    margin: auto 80px;
+  }
+  &y-9 {
+    margin: auto 90px;
+  }
+  &y-10 {
+    margin: auto 100px;
+  }
+
+  &x-1 {
+    margin: 10px auto;
+  }
+  &x-2 {
+    margin: 20px auto;
+  }
+  &x-3 {
+    margin: 30px auto;
+  }
+  &x-4 {
+    margin: 40px auto;
+  }
+  &x-5 {
+    margin: 50px auto;
+  }
+  &x-6 {
+    margin: 60px auto;
+  }
+  &x-7 {
+    margin: 70px auto;
+  }
+  &x-8 {
+    margin: 80px auto;
+  }
+  &x-9 {
+    margin: 90px auto;
+  }
+  &x-10 {
+    margin: 100px auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    &-1 {
+      margin: 5px;
+    }
+    &-2 {
+      margin: 10px;
+    }
+    &-3 {
+      margin: 15px;
+    }
+    &-4 {
+      margin: 20px;
+    }
+    &-5 {
+      margin: 25px;
+    }
+    &-6 {
+      margin: 30px;
+    }
+    &-7 {
+      margin: 35px;
+    }
+    &-8 {
+      margin: 40px;
+    }
+    &-90 {
+      margin: 45px;
+    }
+    &-10 {
+      margin: 50px;
+    }
+
+    &t-1 {
+      margin: 5px auto auto;
+    }
+    &t-2 {
+      margin: 10px auto auto;
+    }
+    &t-3 {
+      margin: 15px auto auto;
+    }
+    &t-4 {
+      margin: 20px auto auto;
+    }
+    &t-5 {
+      margin: 25px auto auto;
+    }
+    &t-6 {
+      margin: 30px auto auto;
+    }
+    &t-7 {
+      margin: 35px auto auto;
+    }
+    &t-8 {
+      margin: 40px auto auto;
+    }
+    &t-9 {
+      margin: 45px auto auto;
+    }
+    &t-10 {
+      margin: 50px auto auto;
+    }
+
+    &b-1 {
+      margin: auto auto 5px auto;
+    }
+    &b-2 {
+      margin: auto auto 10px auto;
+    }
+    &b-3 {
+      margin: auto auto 15px auto;
+    }
+    &b-4 {
+      margin: auto auto 20px auto;
+    }
+    &b-5 {
+      margin: auto auto 25px auto;
+    }
+    &b-6 {
+      margin: auto auto 30px auto;
+    }
+    &b-7 {
+      margin: auto auto 35px auto;
+    }
+    &b-8 {
+      margin: auto auto 40px auto;
+    }
+    &b-9 {
+      margin: auto auto 45px auto;
+    }
+    &b-10 {
+      margin: auto auto 50px auto;
+    }
+
+    &r-1 {
+      margin: auto 5px auto auto;
+    }
+    &r-2 {
+      margin: auto 10px auto auto;
+    }
+    &r-3 {
+      margin: auto 15px auto auto;
+    }
+    &r-4 {
+      margin: auto 20px auto auto;
+    }
+    &r-5 {
+      margin: auto 25px auto auto;
+    }
+    &r-6 {
+      margin: auto 30px auto auto;
+    }
+    &r-7 {
+      margin: auto 35px auto auto;
+    }
+    &r-8 {
+      margin: auto 40px auto auto;
+    }
+    &r-9 {
+      margin: auto 45px auto auto;
+    }
+    &r-10 {
+      margin: auto 50px auto auto;
+    }
+
+    &l-1 {
+      margin: auto auto auto 5px;
+    }
+    &l-2 {
+      margin: auto auto auto 10px;
+    }
+    &l-3 {
+      margin: auto auto auto 15px;
+    }
+    &l-4 {
+      margin: auto auto auto 20px;
+    }
+    &l-5 {
+      margin: auto auto auto 25px;
+    }
+    &l-6 {
+      margin: auto auto auto 30px;
+    }
+    &l-7 {
+      margin: auto auto auto 35px;
+    }
+    &l-8 {
+      margin: auto auto auto 40px;
+    }
+    &l-9 {
+      margin: auto auto auto 45px;
+    }
+    &l-10 {
+      margin: auto auto auto 50px;
+    }
+
+    &y-1 {
+      margin: auto 5px;
+    }
+    &y-2 {
+      margin: auto 10px;
+    }
+    &y-3 {
+      margin: auto 15px;
+    }
+    &y-4 {
+      margin: auto 20px;
+    }
+    &y-5 {
+      margin: auto 25px;
+    }
+    &y-6 {
+      margin: auto 30px;
+    }
+    &y-7 {
+      margin: auto 35px;
+    }
+    &y-8 {
+      margin: auto 40px;
+    }
+    &y-9 {
+      margin: auto 45px;
+    }
+    &y-10 {
+      margin: auto 50px;
+    }
+
+    &x-1 {
+      margin: 5px auto;
+    }
+    &x-2 {
+      margin: 10px auto;
+    }
+    &x-3 {
+      margin: 15px auto;
+    }
+    &x-4 {
+      margin: 20px auto;
+    }
+    &x-5 {
+      margin: 25px auto;
+    }
+    &x-6 {
+      margin: 30px auto;
+    }
+    &x-7 {
+      margin: 35px auto;
+    }
+    &x-8 {
+      margin: 40px auto;
+    }
+    &x-9 {
+      margin: 45px auto;
+    }
+    &x-10 {
+      margin: 50px auto;
+    }
+  }
+}
+
+// Padding
+.p {
+  &-1 {
+    padding: 10px;
+  }
+  &-2 {
+    padding: 20px;
+  }
+  &-3 {
+    padding: 30px;
+  }
+  &-4 {
+    padding: 40px;
+  }
+  &-5 {
+    padding: 50px;
+  }
+  &-6 {
+    padding: 60px;
+  }
+  &-7 {
+    padding: 70px;
+  }
+  &-8 {
+    padding: 80px;
+  }
+  &-90 {
+    padding: 90px;
+  }
+  &-10 {
+    padding: 100px;
+  }
+
+  &t-1 {
+    padding: 10px auto auto;
+  }
+  &t-2 {
+    padding: 20px auto auto;
+  }
+  &t-3 {
+    padding: 30px auto auto;
+  }
+  &t-4 {
+    padding: 40px auto auto;
+  }
+  &t-5 {
+    padding: 50px auto auto;
+  }
+  &t-6 {
+    padding: 60px auto auto;
+  }
+  &t-7 {
+    padding: 70px auto auto;
+  }
+  &t-8 {
+    padding: 80px auto auto;
+  }
+  &t-9 {
+    padding: 90px auto auto;
+  }
+  &t-10 {
+    padding: 100px auto auto;
+  }
+
+  &b-1 {
+    padding: auto auto 10px auto;
+  }
+  &b-2 {
+    padding: auto auto 20px auto;
+  }
+  &b-3 {
+    padding: auto auto 30px auto;
+  }
+  &b-4 {
+    padding: auto auto 40px auto;
+  }
+  &b-5 {
+    padding: auto auto 50px auto;
+  }
+  &b-6 {
+    padding: auto auto 60px auto;
+  }
+  &b-7 {
+    padding: auto auto 70px auto;
+  }
+  &b-8 {
+    padding: auto auto 80px auto;
+  }
+  &b-9 {
+    padding: auto auto 90px auto;
+  }
+  &b-10 {
+    padding: auto auto 100px auto;
+  }
+
+  &r-1 {
+    padding: auto 10px auto auto;
+  }
+  &r-2 {
+    padding: auto 20px auto auto;
+  }
+  &r-3 {
+    padding: auto 30px auto auto;
+  }
+  &r-4 {
+    padding: auto 40px auto auto;
+  }
+  &r-5 {
+    padding: auto 50px auto auto;
+  }
+  &r-6 {
+    padding: auto 60px auto auto;
+  }
+  &r-7 {
+    padding: auto 70px auto auto;
+  }
+  &r-8 {
+    padding: auto 80px auto auto;
+  }
+  &r-9 {
+    padding: auto 90px auto auto;
+  }
+  &r-10 {
+    padding: auto 100px auto auto;
+  }
+
+  &l-1 {
+    padding: auto auto auto 10px;
+  }
+  &l-2 {
+    padding: auto auto auto 20px;
+  }
+  &l-3 {
+    padding: auto auto auto 30px;
+  }
+  &l-4 {
+    padding: auto auto auto 40px;
+  }
+  &l-5 {
+    padding: auto auto auto 50px;
+  }
+  &l-6 {
+    padding: auto auto auto 60px;
+  }
+  &l-7 {
+    padding: auto auto auto 70px;
+  }
+  &l-8 {
+    padding: auto auto auto 80px;
+  }
+  &l-9 {
+    padding: auto auto auto 90px;
+  }
+  &l-10 {
+    padding: auto auto auto 100px;
+  }
+
+  &y-1 {
+    padding: auto 10px;
+  }
+  &y-2 {
+    padding: auto 20px;
+  }
+  &y-3 {
+    padding: auto 30px;
+  }
+  &y-4 {
+    padding: auto 40px;
+  }
+  &y-5 {
+    padding: auto 50px;
+  }
+  &y-6 {
+    padding: auto 60px;
+  }
+  &y-7 {
+    padding: auto 70px;
+  }
+  &y-8 {
+    padding: auto 80px;
+  }
+  &y-9 {
+    padding: auto 90px;
+  }
+  &y-10 {
+    padding: auto 100px;
+  }
+
+  &x-1 {
+    padding: 10px auto;
+  }
+  &x-2 {
+    padding: 20px auto;
+  }
+  &x-3 {
+    padding: 30px auto;
+  }
+  &x-4 {
+    padding: 40px auto;
+  }
+  &x-5 {
+    padding: 50px auto;
+  }
+  &x-6 {
+    padding: 60px auto;
+  }
+  &x-7 {
+    padding: 70px auto;
+  }
+  &x-8 {
+    padding: 80px auto;
+  }
+  &x-9 {
+    padding: 90px auto;
+  }
+  &x-10 {
+    padding: 100px auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    &-1 {
+      padding: 5px;
+    }
+    &-2 {
+      padding: 10px;
+    }
+    &-3 {
+      padding: 15px;
+    }
+    &-4 {
+      padding: 20px;
+    }
+    &-5 {
+      padding: 25px;
+    }
+    &-6 {
+      padding: 30px;
+    }
+    &-7 {
+      padding: 35px;
+    }
+    &-8 {
+      padding: 40px;
+    }
+    &-90 {
+      padding: 45px;
+    }
+    &-10 {
+      padding: 50px;
+    }
+
+    &t-1 {
+      padding: 5px auto auto;
+    }
+    &t-2 {
+      padding: 10px auto auto;
+    }
+    &t-3 {
+      padding: 15px auto auto;
+    }
+    &t-4 {
+      padding: 20px auto auto;
+    }
+    &t-5 {
+      padding: 25px auto auto;
+    }
+    &t-6 {
+      padding: 30px auto auto;
+    }
+    &t-7 {
+      padding: 35px auto auto;
+    }
+    &t-8 {
+      padding: 40px auto auto;
+    }
+    &t-9 {
+      padding: 45px auto auto;
+    }
+    &t-10 {
+      padding: 50px auto auto;
+    }
+
+    &b-1 {
+      padding: auto auto 5px auto;
+    }
+    &b-2 {
+      padding: auto auto 10px auto;
+    }
+    &b-3 {
+      padding: auto auto 15px auto;
+    }
+    &b-4 {
+      padding: auto auto 20px auto;
+    }
+    &b-5 {
+      padding: auto auto 25px auto;
+    }
+    &b-6 {
+      padding: auto auto 30px auto;
+    }
+    &b-7 {
+      padding: auto auto 35px auto;
+    }
+    &b-8 {
+      padding: auto auto 40px auto;
+    }
+    &b-9 {
+      padding: auto auto 45px auto;
+    }
+    &b-10 {
+      padding: auto auto 50px auto;
+    }
+
+    &r-1 {
+      padding: auto 5px auto auto;
+    }
+    &r-2 {
+      padding: auto 10px auto auto;
+    }
+    &r-3 {
+      padding: auto 15px auto auto;
+    }
+    &r-4 {
+      padding: auto 20px auto auto;
+    }
+    &r-5 {
+      padding: auto 25px auto auto;
+    }
+    &r-6 {
+      padding: auto 30px auto auto;
+    }
+    &r-7 {
+      padding: auto 35px auto auto;
+    }
+    &r-8 {
+      padding: auto 40px auto auto;
+    }
+    &r-9 {
+      padding: auto 45px auto auto;
+    }
+    &r-10 {
+      padding: auto 50px auto auto;
+    }
+
+    &l-1 {
+      padding: auto auto auto 5px;
+    }
+    &l-2 {
+      padding: auto auto auto 10px;
+    }
+    &l-3 {
+      padding: auto auto auto 15px;
+    }
+    &l-4 {
+      padding: auto auto auto 20px;
+    }
+    &l-5 {
+      padding: auto auto auto 25px;
+    }
+    &l-6 {
+      padding: auto auto auto 30px;
+    }
+    &l-7 {
+      padding: auto auto auto 35px;
+    }
+    &l-8 {
+      padding: auto auto auto 40px;
+    }
+    &l-9 {
+      padding: auto auto auto 45px;
+    }
+    &l-10 {
+      padding: auto auto auto 50px;
+    }
+
+    &y-1 {
+      padding: auto 5px;
+    }
+    &y-2 {
+      padding: auto 10px;
+    }
+    &y-3 {
+      padding: auto 15px;
+    }
+    &y-4 {
+      padding: auto 20px;
+    }
+    &y-5 {
+      padding: auto 25px;
+    }
+    &y-6 {
+      padding: auto 30px;
+    }
+    &y-7 {
+      padding: auto 35px;
+    }
+    &y-8 {
+      padding: auto 40px;
+    }
+    &y-9 {
+      padding: auto 45px;
+    }
+    &y-10 {
+      padding: auto 50px;
+    }
+
+    &x-1 {
+      padding: 5px auto;
+    }
+    &x-2 {
+      padding: 10px auto;
+    }
+    &x-3 {
+      padding: 15px auto;
+    }
+    &x-4 {
+      padding: 20px auto;
+    }
+    &x-5 {
+      padding: 25px auto;
+    }
+    &x-6 {
+      padding: 30px auto;
+    }
+    &x-7 {
+      padding: 35px auto;
+    }
+    &x-8 {
+      padding: 40px auto;
+    }
+    &x-9 {
+      padding: 45px auto;
+    }
+    &x-10 {
+      padding: 50px auto;
+    }
+  }
+}

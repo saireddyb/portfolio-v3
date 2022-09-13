@@ -1,0 +1,79 @@
+.footer {
+  h6 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: $sans-serif-alt;
+    color: $light-alt;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: $sans-serif-alt;
+    color: $light-alt;
+    line-height: 170%;
+
+    a {
+      font-family: $cursive;
+      color: $light;
+      display: inline-block;
+      margin-left: 20px;
+      border-bottom: 2px dashed $secondary;
+      transition: 0.5s ease all;
+
+      &:hover {
+        border-bottom: 2px dashed $primary;
+      }
+    }
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    a {
+      font-size: 25px;
+      color: $primary;
+      transition: 0.5s ease all;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $dark;
+      border-radius: 60px;
+
+      &:hover {
+        color: $light;
+        background: $dark-alt;
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 16px;
+    }
+    .social {
+      gap: 7px;
+
+      a {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+// Info Section
+.info-section {
+  .info__inner {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 150px;
+
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .title {
+      width: calc(100% - 60% - 50px);
+      position: sticky;
+      top: 30px;
+
+      h4 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: $serif;
+        color: $light;
+      }
+    }
+
+    .text {
+      width: 60%;
+
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        word-spacing: 1px;
+        line-height: 170%;
+        margin-bottom: 15px;
+        color: $light-alt;
+
+        b {
+          font-weight: 600;
+          color: $light;
+        }
+
+        i {
+          font-weight: 600;
+          font-family: $cursive;
+          color: $primary;
+          margin-right: 5px;
+        }
+      }
+
+      //   Experience Points
+      .exp-point {
+        width: 100%;
+        border-bottom: 3px solid #fff2;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+
+        &:last-child {
+          border-bottom: 0;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+
+        h5 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 15px;
+          margin-bottom: 15px;
+
+          b {
+            font-size: 22px;
+            font-weight: 600;
+            font-family: $sans-serif-alt;
+            color: $primary;
+
+            i {
+              display: block;
+              font-size: 16px;
+              font-weight: 400;
+              font-style: normal;
+              font-family: $sans-serif;
+              color: $light;
+              margin-top: 5px;
+            }
+          }
+
+          span {
+            font-size: 14px;
+            font-weight: 600;
+            color: $light;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          margin: 0;
+        }
+      }
+
+      // Skill Points
+      .skill-point {
+        width: 100%;
+        border-bottom: 3px solid #fff2;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+
+        &:last-child {
+          border-bottom: 0;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+
+        h5 {
+          font-size: 22px;
+          font-weight: 600;
+          font-family: $sans-serif-alt;
+          color: $primary;
+          margin-bottom: 20px;
+        }
+
+        .icons {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 10px;
+
+          img {
+            width: 100px;
+            background: #00000036;
+            filter: invert(0.3);
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            transition: 0.5s ease all;
+
+            &:hover {
+              filter: invert(0);
+              background-color: $light;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .info__inner {
+      .title {
+        h4 {
+          font-size: 30px;
+        }
+      }
+
+      .text {
+        width: 75%;
+
+        p {
+          font-size: 16px;
+        }
+
+        .exp-point {
+          h5 b {
+            font-size: 20px;
+
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .skill-point {
+          h5 {
+            font-size: 20px;
+          }
+          .icons img {
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .info__inner {
+      display: block;
+
+      .title {
+        width: 100%;
+        position: relative;
+        inset: auto;
+        margin-bottom: 15px;
+      }
+      .text {
+        width: 100%;
+        position: relative;
+        inset: auto;
+
+        .exp-point h5 {
+          display: block;
+        }
+
+        .skill-point .icons img {
+          width: 50px;
+        }
+      }
+    }
+  }
+}

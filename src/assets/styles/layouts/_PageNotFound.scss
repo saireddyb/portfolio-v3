@@ -1,0 +1,93 @@
+// 404 Section
+.not-found-section {
+  .not-found__inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 200px;
+      font-weight: 600;
+      font-family: $serif;
+      color: $light;
+      line-height: 100%;
+      width: 50%;
+      text-align: right;
+
+      span {
+        font-family: $cursive;
+        color: $primary;
+      }
+    }
+
+    .text {
+      width: 50%;
+      padding: 0 0 0 50px;
+      margin: 0 0 0 50px;
+      border-left: 5px solid #ffffff24;
+      height: 400px;
+      color: $light;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+
+      h3 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: $serif;
+        color: $light;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        font-size: 25px;
+        font-weight: 400;
+        font-family: $sans-serif-alt;
+        color: $light-alt;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .not-found__inner {
+      display: block;
+
+      h1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 0;
+        padding: 0;
+        margin: 0 0 50px;
+      }
+      .text {
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .not-found__inner {
+      h1 {
+        font-size: 80px;
+      }
+      .text {
+        h3 {
+          font-size: 35px;
+        }
+        h4 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

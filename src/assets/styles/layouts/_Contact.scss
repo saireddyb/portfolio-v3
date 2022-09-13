@@ -1,0 +1,150 @@
+// Contact Section
+.contact-section {
+  .contact__inner {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 50px;
+
+    .text {
+      width: 50%;
+      text-align: center;
+      background: $dark-alt;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px;
+
+      h3 {
+        font-size: 50px;
+        font-weight: 600;
+        font-family: $serif;
+        color: $primary;
+        margin-bottom: 10px;
+      }
+
+      h4 {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: $serif;
+        color: $light;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 170%;
+        color: $light-alt;
+      }
+
+      .point {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        background: $dark;
+        padding: 15px 30px 15px 15px;
+        margin-top: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .icon {
+          width: 50px;
+          height: 50px;
+          background: $dark-alt;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px;
+          font-size: 25px;
+          color: $primary;
+        }
+
+        p {
+          width: auto;
+          text-align: left;
+
+          span {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 100%;
+            color: $light;
+            display: block;
+          }
+
+          i {
+            font-size: 14px;
+            font-weight: 400;
+            color: $light-alt;
+            display: block;
+          }
+        }
+      }
+    }
+
+    .form {
+      width: 50%;
+
+      h4 {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: $serif;
+        color: $light;
+        margin-bottom: 50px;
+      }
+
+      form {
+        input,
+        textarea {
+          width: 100%;
+          border: 2px solid $dark-alt;
+          background: $dark-alt;
+          outline: 0;
+          box-shadow: none;
+          border-radius: 5px;
+          padding: 15px;
+          color: $light;
+          font-size: 16px;
+          font-weight: 400;
+          font-family: $sans-serif-alt;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .contact__inner {
+      display: block;
+      .text {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      .form {
+        width: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .contact__inner .text {
+      h3 {
+        font-size: 30px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+      .point {
+        .icon {
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+        }
+      }
+    }
+  }
+}

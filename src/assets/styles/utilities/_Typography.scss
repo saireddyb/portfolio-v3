@@ -1,0 +1,60 @@
+// Heading
+.heading {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: $serif;
+  color: $light;
+
+  @media screen and (max-width: 960px) {
+    & {
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    & {
+      font-size: 30px;
+    }
+  }
+}
+
+// Alignments
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-left {
+    text-align: left;
+  }
+  &-right {
+    text-align: right;
+  }
+  &-justify {
+    text-align: justify;
+  }
+}
+
+// Buttons
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: $light;
+  border-radius: 10px;
+  color: $dark;
+  font-size: 16px;
+  font-weight: 600;
+  word-spacing: 3px;
+  font-family: $sans-serif-alt;
+  transition: 0.5s ease all;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary;
+  }
+
+  @media screen and (max-width: 960px) {
+    & {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+}

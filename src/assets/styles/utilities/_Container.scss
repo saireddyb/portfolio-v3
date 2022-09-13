@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.section {
+  padding: 150px 0;
+  position: relative;
+  background-color: $dark;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  .section {
+    padding: 70px 0;
+  }
+}
