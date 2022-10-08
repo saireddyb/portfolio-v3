@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25543d86.css",
+    "main.js": "/static/js/main.cdb3a202.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/resume.pdf": "/static/media/resume.609e8f0a2cc3871865de.pdf",
+    "static/media/hero-background.jpg": "/static/media/hero-background.5c44a4243bb40f7ea3c7.jpg",
+    "static/media/home-hunger-junction.jpg": "/static/media/home-hunger-junction.3048ce409467b6f10ef6.jpg",
+    "static/media/home-tattoo-studio.jpg": "/static/media/home-tattoo-studio.3da117dd5fff3cfc9c02.jpg",
+    "static/media/python.png": "/static/media/python.77f43f86c8ccc6eeb182.png",
+    "static/media/avatar.png": "/static/media/avatar.c48681015497440dca8e.png",
+    "static/media/php.png": "/static/media/php.7586f64e3e2e28748755.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.7446e5f56b50cb38d2c6.png",
+    "static/media/docker.png": "/static/media/docker.af3345c9a484e21260fb.png",
+    "static/media/html.png": "/static/media/html.dd7438454fa5fc88537e.png",
+    "static/media/css.png": "/static/media/css.ffa62bb6440fb252df66.png",
+    "static/media/photoshop.png": "/static/media/photoshop.0f5d1b02f55f1bd52b00.png",
+    "static/media/logo.svg": "/static/media/logo.636351a7911320ba6c56e7e713dd8a49.svg",
+    "static/media/figma.png": "/static/media/figma.a0062d010143ef8593ea.png",
+    "static/media/react.png": "/static/media/react.abb9ecfaa584ef702d35.png",
+    "static/media/django.png": "/static/media/django.4d93bec9133f006b11fb.png",
+    "static/media/javascript.png": "/static/media/javascript.eaa052f2e6477b2b7ce3.png",
+    "index.html": "/index.html",
+    "main.25543d86.css.map": "/static/css/main.25543d86.css.map",
+    "main.cdb3a202.js.map": "/static/js/main.cdb3a202.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25543d86.css",
+    "static/js/main.cdb3a202.js"
+  ]
+}
